@@ -1,0 +1,58 @@
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 98.8vw;
+    
+}
+
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-title {
+    margin: 0;
+}
+
+.custom-arrow {
+    text-decoration: none;
+    color: blue;
+}
+
+.custom-scrollable-content {
+    display: flex;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+}
+
+.custom-item {
+    flex: 0 0 auto;
+    /* Prevent items from growing */
+    width: 150px;
+    /* Set the width of each item */
+    margin-right: 10px;
+    /* Add space between items */
+}
+
+.custom-item img {
+    width: 100%;
+    height: auto;
+}
+
+.custom-image-name,
+.custom-price {
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+.custom-scrollable-content{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.custom-scrollable-content::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

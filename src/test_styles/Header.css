@@ -1,0 +1,17 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .navbar{
+    justify-content:space-evenly;
+  }
+.login_button{
+  border-style: none;
+  /* background-color: white; */
+  text-decoration: none;
+  color:black
+}

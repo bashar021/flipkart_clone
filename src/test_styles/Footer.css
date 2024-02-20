@@ -1,0 +1,29 @@
+footer{
+    background-color: black;
+    color: white;
+    font-size: 80%;
+    padding-top: 2%;
+    width: 100vw;
+}
+#main_cont_footer{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+#contact_us_cont{
+    /* width: 40%; */
+}
+.list-unstyled li a{
+    text-decoration: none;
+    color: white;
+}
+.footer_next_links{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+   
+    /* background-color: aquamarine; */
+}
+.footer_next_links a{
+    text-decoration: none;
+    color: white;
+}

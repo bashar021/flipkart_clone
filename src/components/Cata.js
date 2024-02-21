@@ -25,7 +25,7 @@ export default function Cata() {
                <p>appliances</p>
            </a>
 
-           <a className='cat' href="">
+           <div className='cat' >
                <div>
                    <img src={img1} alt="img1" />
                </div>
@@ -46,9 +46,9 @@ export default function Cata() {
                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                    </ul>
                </div>
-           </a>
+           </div>
 
-           <a className='cat' href="">
+           <div className='cat' >
                <div>
                    <img src={img1} alt="img1" />
                </div>
@@ -69,9 +69,9 @@ export default function Cata() {
                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                    </ul>
                </div>
-           </a>
+           </div>
 
-           <a className='cat' href="">
+           <div className='cat' >
                <div>
                    <img src={img1} alt="img1" />
                </div>
@@ -92,7 +92,7 @@ export default function Cata() {
                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                    </ul>
                </div>
-           </a>
+           </div>
 
 
 
@@ -103,7 +103,7 @@ export default function Cata() {
                <p>travel</p>
            </a>
 
-           <a className='cat' href="">
+           <div className='cat' >
                <div>
                    <img src={img1} alt="img1" />
                </div>
@@ -124,8 +124,8 @@ export default function Cata() {
                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                    </ul>
                </div>
-           </a>
-           <a className='cat' href="">
+           </div>
+           <div className='cat' >
                <div>
                    <img src={img1} alt="img1" />
                </div>
@@ -146,7 +146,7 @@ export default function Cata() {
                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                    </ul>
                </div>
-           </a>
+           </div>
 
 
        </div>
